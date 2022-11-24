@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.Presentation", "Presentation\KanchoBank.Presentation.csproj", "{F6817A2F-B37A-419C-A9F6-58DC857F121B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.Entities", "KanchoBank.Entities\KanchoBank.Entities.csproj", "{2B26C49E-75D9-4686-BC46-FA7A24468D27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.DataAccessLayer", "KanchoBank.DataAccessLayer\KanchoBank.DataAccessLayer.csproj", "{E2C3A698-0592-4664-A935-706EA290B070}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.BussinesLogicLayer", "KanchoBank.BussinesLogicLayer\KanchoBank.BussinesLogicLayer.csproj", "{A4377FF6-1FBD-4589-8174-5AD71E5BCB02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.Configuration", "KanchoBank.Configuration\KanchoBank.Configuration.csproj", "{416D30F6-7EFC-446D-AF4B-6C3905E6AF06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanchoBank.Exceptions", "KanchoBank.Exceptions\KanchoBank.Exceptions.csproj", "{254C348A-144F-4DC9-941A-8A3D7F38EBE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6817A2F-B37A-419C-A9F6-58DC857F121B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6817A2F-B37A-419C-A9F6-58DC857F121B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6817A2F-B37A-419C-A9F6-58DC857F121B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6817A2F-B37A-419C-A9F6-58DC857F121B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B26C49E-75D9-4686-BC46-FA7A24468D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B26C49E-75D9-4686-BC46-FA7A24468D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B26C49E-75D9-4686-BC46-FA7A24468D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B26C49E-75D9-4686-BC46-FA7A24468D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C3A698-0592-4664-A935-706EA290B070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C3A698-0592-4664-A935-706EA290B070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C3A698-0592-4664-A935-706EA290B070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C3A698-0592-4664-A935-706EA290B070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4377FF6-1FBD-4589-8174-5AD71E5BCB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4377FF6-1FBD-4589-8174-5AD71E5BCB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4377FF6-1FBD-4589-8174-5AD71E5BCB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4377FF6-1FBD-4589-8174-5AD71E5BCB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416D30F6-7EFC-446D-AF4B-6C3905E6AF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416D30F6-7EFC-446D-AF4B-6C3905E6AF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416D30F6-7EFC-446D-AF4B-6C3905E6AF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416D30F6-7EFC-446D-AF4B-6C3905E6AF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254C348A-144F-4DC9-941A-8A3D7F38EBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254C348A-144F-4DC9-941A-8A3D7F38EBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254C348A-144F-4DC9-941A-8A3D7F38EBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254C348A-144F-4DC9-941A-8A3D7F38EBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A29CD16D-33A5-4645-BF21-75B8DDC20BF2}
+	EndGlobalSection
+EndGlobal

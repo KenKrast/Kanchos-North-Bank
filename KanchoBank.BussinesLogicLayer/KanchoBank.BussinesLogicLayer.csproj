@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KanchoBank.Configuration\KanchoBank.Configuration.csproj" />
+    <ProjectReference Include="..\KanchoBank.DataAccessLayer\KanchoBank.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\KanchoBank.Entities\KanchoBank.Entities.csproj" />
+    <ProjectReference Include="..\KanchoBank.Exceptions\KanchoBank.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>
